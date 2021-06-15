@@ -78,10 +78,10 @@ cargo run
 
 # What?
 
-- `use ferris_says::say;` -> importing library to use
+- `use ferris_says::say;` → importing library to use
 - `::` are like `.` in Java or `->` in PHP :D
-- `mut` -> actually all variable in Rust are immutable, but we can make it mutable by adding `mut` before variable name
-- `let mut write = BufWriter::new(stdout.lock());` -> it feel like, warp `stdout` into `write`
-- `say(message.as_bytes(), width, &mut write).unwrap();` -> print Ferris with "Hello Fellow Rustaceans" bubble
+- `mut` → actually all variable in Rust are immutable, but we can make it mutable by adding `mut` before variable name
+- `let mut write = BufWriter::new(stdout.lock());` → it feel like, warp `stdout` into `write`
+- `say(message.as_bytes(), width, &mut write).unwrap();` → print Ferris with "Hello Fellow Rustaceans" bubble
 - Rustaceans → Rust programmer
 - Ferris → Rust unofficial mascot
